@@ -6,9 +6,9 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 employees = [
- { 'id': 1, 'name': 'Ashley' },
- { 'id': 2, 'name': 'Kate' },
- { 'id': 3, 'name': 'Joe' }
+ { 'id': 1, 'name': 'kannapi' },
+ { 'id': 2, 'name': 'njan' },
+ { 'id': 3, 'name': 'alla' }
 ]
 
 #########
