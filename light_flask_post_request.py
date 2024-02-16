@@ -18,7 +18,7 @@ def home():
 
 # Set up GPIO
 led_pin = 18
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 GPIO.setup(led_pin, GPIO.OUT)
 
 
